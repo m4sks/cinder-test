@@ -16,6 +16,8 @@ class CinderTestApp : public App {
 
 void CinderTestApp::setup()
 {
+    setWindowSize(800, 600);
+    setFrameRate(60.0f);
 }
 
 void CinderTestApp::mouseDown( MouseEvent event )
@@ -24,6 +26,7 @@ void CinderTestApp::mouseDown( MouseEvent event )
 
 void CinderTestApp::update()
 {
+    
 }
 
 void CinderTestApp::draw()
